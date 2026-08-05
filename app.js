@@ -7,7 +7,7 @@ const APP_ENV = process.env.APP_ENV || 'local-dev';
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify({
-    message: "Hello from Argo GitOps Pipeline!",
+    message: "Hello from Argo GitOps Pipeline for the second time!",
     title: APP_TITLE,
     environment: APP_ENV,
     timestamp: new Date().toISOString()
