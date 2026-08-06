@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
 
   res.writeHead(200, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify({
-    message: "Hello from Argo GitOps Pipeline with Vault Secret Injection!",
+    message: "Testing GitHub webhooks and ArgoCD integration with GitOps",
     title: APP_TITLE,
     environment: APP_ENV,
     api_key: apiKey,
